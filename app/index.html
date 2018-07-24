@@ -9,963 +9,789 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
     crossorigin="anonymous">
-
+  
   <!--build:css css/styles.min.css-->
 
-  <link rel="stylesheet" href="css/owl.carousel.css" />
-  <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.green.min.css" />
   <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="css/styles.css">
 
   <!--endbuild-->
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
 
   <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
-    crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+  crossorigin="anonymous"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900" rel="stylesheet">
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-  <!-- Header -->
-  <header id="home">
-    <!-- Background Image -->
-    <div class="bg-img parallaxie" style='background: url("http://panel.webhoxrentacar.com/webhox/resim/antalyacapitalrentacar/Antalya%20capital%20rent%20a%20car%201.jpg")'
-      data-parallaxie='{
+  <div id="app--wrapper">
+    <!-- Header -->
+    <header id="home">
+      <!-- Background Image -->
+      <div class="bg-img parallaxie" style='background: url("http://panel.webhoxrentacar.com/webhox/resim/antalyacapitalrentacar/Antalya%20capital%20rent%20a%20car%201.jpg")'
+        data-parallaxie='{
       "speed": 0.9
       "size": "cover"
     }'>
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Nav -->
-    <nav id="nav" class="navbar nav-transparent navbar navbar-expand-lg navbar-light">
-      <div class="container">
-
-        <div class="navbar-header">
-          <!-- Logo -->
-          <div class="navbar-brand">
-            <a href="index.html">
-              <img class="logo" src="img/logo.png" alt="logo">
-              <img class="logo-alt" src="img/logo-alt.png" alt="logo">
-            </a>
-          </div>
-          <!-- /Logo -->
-
-          <!-- Collapse nav button -->
-          <div class="nav-collapse">
-            <span></span>
-          </div>
-          <!-- /Collapse nav button -->
-        </div>
-
-        <!--  Main navigation  -->
-        <ul class="main-nav nav navbar-nav navbar-right" id="navbar--spy">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#service">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Prices</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <!-- /Main navigation -->
-
+        <div class="overlay"></div>
       </div>
-    </nav>
-    <!-- /Nav -->
+      <!-- /Background Image -->
 
-    <!-- home wrapper -->
-    <div class="home-wrapper">
-      <div class="container">
-        <div class="row">
+      <!-- Nav -->
+      <nav id="nav" class="navbar nav-transparent navbar navbar-expand-lg navbar-light">
+        <div class="container">
 
-          <!-- home content -->
-          <div class="col-md-12 ">
-            <div class="home-content">
-              <h1 class="white-text">We Are Creative Agency</h1>
-              <p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in magna gravida vehicula.
-                Mauris tincidunt sem sed arcu. Nunc posuere.
-              </p>
-              <button class="white-btn">Get Started!</button>
-              <button class="main-btn">Learn more</button>
-            </div>
-          </div>
-          <!-- /home content -->
-
-        </div>
-      </div>
-    </div>
-    <!-- /home wrapper -->
-
-  </header>
-  <!-- /Header -->
-
-  <!-- About -->
-  <div id="about" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="col-sm-12">
-          <div class="section-header text-center">
-            <h2 class="title">Welcome to Website</h2>
-          </div>
-        </div>
-        <!-- /Section header -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-cogs"></i>
-            <h3>Fully Customizible</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-magic"></i>
-            <h3>Awesome Features</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-        <!-- about -->
-        <div class="col-md-4">
-          <div class="about">
-            <i class="fa fa-mobile"></i>
-            <h3>Fully Responsive</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <!-- /about -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /About -->
-
-
-  <!-- Portfolio -->
-  <div id="portfolio" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="col-sm-12">
-          <div class="section-header text-center">
-            <h2 class="title">Featured Works</h2>
-          </div>
-        </div>
-        <!-- /Section header -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work1.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work1.jpg">
-                <i class="fa fa-search"></i>
+          <div class="navbar-header">
+            <!-- Logo -->
+            <div class="navbar-brand">
+              <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="logo">
+                <img class="logo-alt" src="img/logo-alt.png" alt="logo">
               </a>
             </div>
-          </div>
-        </div>
-        <!-- /Work -->
+            <!-- /Logo -->
 
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work2.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work2.jpg">
-                <i class="fa fa-search"></i>
-              </a>
+            <!-- Collapse nav button -->
+            <div class="nav-collapse">
+              <span></span>
             </div>
+            <!-- /Collapse nav button -->
           </div>
-        </div>
-        <!-- /Work -->
 
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work3.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work3.jpg">
-                <i class="fa fa-search"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work4.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work4.jpg">
-                <i class="fa fa-search"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work5.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work5.jpg">
-                <i class="fa fa-search"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-        <!-- Work -->
-        <div class="col-md-4 col-xs-6 work">
-          <img class="img-responsive" src="./img/work6.jpg" alt="">
-          <div class="overlay"></div>
-          <div class="work-content">
-            <span>Category</span>
-            <h3>Lorem ipsum dolor</h3>
-            <div class="work-link">
-              <a href="#">
-                <i class="fa fa-external-link"></i>
-              </a>
-              <a class="lightbox" href="./img/work6.jpg">
-                <i class="fa fa-search"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- /Work -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Portfolio -->
-
-  <!-- Service -->
-  <div id="service" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="col-md-12">
-          <div class="section-header text-center">
-            <h2 class="title">What we offer</h2>
-          </div>
-        </div>
-        <!-- /Section header -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-diamond"></i>
-            <h3>App Development</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-rocket"></i>
-            <h3>Graphic Design</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-cogs"></i>
-            <h3>Creative Idea</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-diamond"></i>
-            <h3>Marketing</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-pencil"></i>
-            <h3>Awesome Support</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div class="col-md-4 col-sm-6">
-          <div class="service">
-            <i class="fa fa-flask"></i>
-            <h3>Brand Design</h3>
-            <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-          </div>
-        </div>
-        <!-- /service -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Service -->
-
-
-  <!-- Why Choose Us -->
-  <div id="features" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- why choose us content -->
-        <div class="col-md-6">
-          <div class="section-header">
-            <h2 class="title">Why Choose Us</h2>
-          </div>
-          <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas
-            ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Quis varius quam quisque id diam vel quam elementum.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Mauris augue neque gravida in fermentum.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Orci phasellus egestas tellus rutrum.</p>
-          </div>
-          <div class="feature">
-            <i class="fa fa-check"></i>
-            <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
-          </div>
-        </div>
-        <!-- /why choose us content -->
-
-        <!-- About slider -->
-        <div class="col-md-6">
-          <div id="about-slider" class="owl-carousel owl-theme">
-            <img class="img-responsive" src="./img/about1.jpg" alt="">
-            <img class="img-responsive" src="./img/about2.jpg" alt="">
-            <img class="img-responsive" src="./img/about1.jpg" alt="">
-            <img class="img-responsive" src="./img/about2.jpg" alt="">
-          </div>
-        </div>
-        <!-- /About slider -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Why Choose Us -->
-
-
-  <!-- Numbers -->
-  <div id="numbers" class="section sm-padding">
-
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('./img/background2.jpg');">
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-users"></i>
-            <h3 class="white-text">
-              <span class="counter">451</span>
-            </h3>
-            <span class="white-text">Happy clients</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-trophy"></i>
-            <h3 class="white-text">
-              <span class="counter">12</span>
-            </h3>
-            <span class="white-text">Awards won</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-coffee"></i>
-            <h3 class="white-text">
-              <span class="counter">154</span>K</h3>
-            <span class="white-text">Cups of Coffee</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-        <!-- number -->
-        <div class="col-sm-3 col-xs-6">
-          <div class="number">
-            <i class="fa fa-file"></i>
-            <h3 class="white-text">
-              <span class="counter">45</span>
-            </h3>
-            <span class="white-text">Projects completed</span>
-          </div>
-        </div>
-        <!-- /number -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Numbers -->
-
-  <!-- Pricing -->
-  <div id="pricing" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="col-sm-12">
-          <div class="section-header text-center">
-            <h2 class="title">Pricing Table</h2>
-          </div>
-        </div>
-        <!-- /Section header -->
-
-        <!-- pricing -->
-        <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Basic plan</span>
-              <div class="price">
-                <h3>$9
-                  <span class="duration">/ month</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div>
-        <!-- /pricing -->
-
-        <!-- pricing -->
-        <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Silver plan</span>
-              <div class="price">
-                <h3>$19
-                  <span class="duration">/ month</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div>
-        <!-- /pricing -->
-
-        <!-- pricing -->
-        <div class="col-sm-4">
-          <div class="pricing">
-            <div class="price-head">
-              <span class="price-title">Gold plan</span>
-              <div class="price">
-                <h3>$39
-                  <span class="duration">/ month</span>
-                </h3>
-              </div>
-            </div>
-            <ul class="price-content">
-              <li>
-                <p>1GB Disk Space</p>
-              </li>
-              <li>
-                <p>100 Email Account</p>
-              </li>
-              <li>
-                <p>24/24 Support</p>
-              </li>
-            </ul>
-            <div class="price-btn">
-              <button class="outline-btn">Purchase now</button>
-            </div>
-          </div>
-        </div>
-        <!-- /pricing -->
-
-      </div>
-      <!-- Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Pricing -->
-
-
-  <!-- Testimonial -->
-  <div id="testimonial" class="section md-padding">
-
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('./img/background3.jpg');">
-      <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Testimonial slider -->
-        <div class="col-md-10 col-md-offset-1">
-          <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-            <!-- testimonial -->
-            <div class="testimonial">
-              <div class="testimonial-meta">
-                <img src="./img/perso1.jpg" alt="">
-                <h3 class="white-text">John Doe</h3>
-                <span>Web Designer</span>
-              </div>
-              <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam
-                maecenas ultricies mi eget mauris.</p>
-            </div>
-            <!-- /testimonial -->
-
-            <!-- testimonial -->
-            <div class="testimonial">
-              <div class="testimonial-meta">
-                <img src="./img/perso2.jpg" alt="">
-                <h3 class="white-text">John Doe</h3>
-                <span>Web Designer</span>
-              </div>
-              <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam
-                maecenas ultricies mi eget mauris.</p>
-            </div>
-            <!-- /testimonial -->
-
-          </div>
-        </div>
-        <!-- /Testimonial slider -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Testimonial -->
-
-  <!-- Team -->
-  <div id="team" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="col-sm-12">
-          <div class="section-header text-center">
-            <h2 class="title">Our Team</h2>
-          </div>
-        </div>
-        <!-- /Section header -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="./img/team1.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="./img/team2.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-        <!-- team -->
-        <div class="col-sm-4">
-          <div class="team">
-            <div class="team-img">
-              <img class="img-responsive" src="./img/team3.jpg" alt="">
-              <div class="overlay">
-                <div class="team-social">
-                  <a href="#">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="team-content">
-              <h3>John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-          </div>
-        </div>
-        <!-- /team -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Team -->
-
-
-
-  <!-- Contact -->
-  <div id="contact" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section-header -->
-        <div class="col-sm-12">
-          <div class="section-header text-center">
-            <h2 class="title">Get in touch</h2>
-          </div>
-        </div>
-        <!-- /Section-header -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-phone"></i>
-            <h3>Phone</h3>
-            <p>512-421-3940</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-envelope"></i>
-            <h3>Email</h3>
-            <p>email@support.com</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact -->
-        <div class="col-sm-4">
-          <div class="contact">
-            <i class="fa fa-map-marker"></i>
-            <h3>Address</h3>
-            <p>1739 Bubby Drive</p>
-          </div>
-        </div>
-        <!-- /contact -->
-
-        <!-- contact form -->
-        <div class="col-md-12">
-          <form class="contact-form">
-            <input type="text" class="input" placeholder="Name">
-            <input type="email" class="input" placeholder="Email">
-            <input type="text" class="input" placeholder="Subject">
-            <textarea class="input" placeholder="Message"></textarea>
-            <button class="main-btn">Send message</button>
-          </form>
-        </div>
-        <!-- /contact form -->
-
-      </div>
-      <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-  </div>
-  <!-- /Contact -->
-
-
-  <!-- Footer -->
-  <footer id="footer" class="sm-padding bg-dark">
-
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <div class="col-md-12">
-
-          <!-- footer logo -->
-          <div class="footer-logo">
-            <a href="index.html">
-              <img src="img/logo-alt.png" alt="logo">
-            </a>
-          </div>
-          <!-- /footer logo -->
-
-          <!-- footer follow -->
-          <ul class="footer-follow">
-            <li>
-              <a href="#">
-                <i class="fa fa-facebook"></i>
-              </a>
+          <!--  Main navigation  -->
+          <ul class="main-nav nav navbar-nav navbar-right" id="navbar--spy">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Početna</a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-twitter"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">O nama</a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-google-plus"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Vozila</a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-instagram"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-linkedin"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Prices</a>
             </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-youtube"></i>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontakt</a>
             </li>
           </ul>
-          <!-- /footer follow -->
-
-          <!-- footer copyright -->
-          <div class="footer-copyright">
-            <p>Copyright © 2017. All Rights Reserved. Designed by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            </p>
-          </div>
-          <!-- /footer copyright -->
+          <!-- /Main navigation -->
 
         </div>
+      </nav>
+      <!-- /Nav -->
+
+      <!-- home wrapper -->
+      <div class="home-wrapper">
+        <div class="container">
+          <div class="row">
+
+            <!-- home content -->
+            <div class="col-md-12">
+              <div class="home-content">
+                
+                <h1 class="white-text">Simply d.o.o</h1>
+
+
+                <h4 class="white-text">Jednostavno i pouzdano do vozila</h4>
+                <div class="col-md-8 mx-auto">
+                    <p class="white-text">Simply d.o.o. Sarajevo se bavi iznajmljivanjem vozila i prevozom putnika. Vozilo je moguce preuzeti i vratiti u svim dijelovima BiH.
+                      </p>
+                </div>
+                <button class="white-btn">Kontakt</button>
+                <button class="main-btn">Vozni park</button>
+              </div>
+            </div>
+            <!-- /home content -->
+
+          </div>
+        </div>
+      </div>
+      <!-- /home wrapper -->
+
+    </header>
+    <!-- /Header -->
+
+    <!-- About -->
+    <div id="about" class="section md-padding">
+
+      <!-- Container -->
+      <div class="container">
+
+          <!-- Row -->
+          <div class="row">
+  
+            <!-- why choose us content -->
+            <div class="col-md-12 text-center">
+              <div class="section-header">
+                <h2 class="title">Zašto Simply d.o.o?</h2>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facilis optio aut minima iste mollitia quod pariatur, officia recusandae repellendus laboriosam harum fugit deserunt dicta nostrum error quibusdam. Rem, eius!</p>
+              <div class="feature">
+                <i class="fa fa-check"></i>
+                <p>Quis varius quam quisque id diam vel quam elementum.</p>
+              </div>
+              <div class="feature">
+                <i class="fa fa-check"></i>
+                <p>Mauris augue neque gravida in fermentum.</p>
+              </div>
+              <div class="feature">
+                <i class="fa fa-check"></i>
+                <p>Orci phasellus egestas tellus rutrum.</p>
+              </div>
+              <div class="feature">
+                <i class="fa fa-check"></i>
+                <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+              </div>
+            </div>
+            <!-- /why choose us content -->
+
+          </div>
+          <!-- /Row -->
+  
+        </div>
+      <!-- /Container -->
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="container d-none">
+        <div class="row">
+          <div class="owl-carousel owl-one">
+      
+
+
+          <div class="col-sm-4">
+            <div class="card z-depth-2">
+              <div class="label type-2">Special Offer</div>
+              <div class="card-image">
+                <a class="btn-floating waves-effect waves-light light-green right-align right pulse"><i class="material-icons">check</i></a>
+                <img src="https://cdn.euroncap.com/media/20501/renault_megane_2015_1uncrashed-media-gallery.jpg">
+              </div>
+              <div class="card-content">
+                <h5 class="card-title">New 2016 MINI Hardtop Cooper S</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <ul class="collapsible">
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">ac_unit</i>
+                      <span class="badge">Second</span></div>
+                  </li>
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">music_note</i>
+                      <span class="badge">Second</span></div>
+                  </li>  
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">local_gas_station</i>
+                      <span class="badge">Second</span></div>
+                  </li>  
+                  <li>
+                    <div class="collapsible-header">
+                      <i class="material-icons">local_gas_station</i>
+                      <span class="badge">Second</span></div>
+                  </li>   
+                </ul>
+              </div>
+            </div>
+          </div>
+
+      
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+    </div>
+    <!-- /About -->
+
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="section md-padding bg-grey">
+
+      <!-- Container -->
+      <div class="container" id="app">
+
+        <!-- Row -->
+        <div class="row">
+
+          <!-- Section header -->
+          <div class="col-sm-12">
+            <div class="section-header text-center">
+              <h2 class="title">Naša vozila</h2>
+            </div>
+          </div>
+          <!-- /Section header -->
+        </div>
+        <!-- /Row -->
+
+        <div class="row">
+         
+      
+            <!-- Item -->
+            <div class="col-sm-4 owl--item_x" v-for="vozilo in vozila" v-bind:key="vozilo.id">
+              <div class="card z-depth-2">
+                <div class="label type-2">Dostupno</div>
+                
+                <div class="card-image">
+                    <a class="btn-floating waves-effect waves-light light-green right-align right pulse">
+                        <i class="material-icons">check</i>
+                      </a>
+                  <div class="owl-two owl-carousel owl-theme">
+    
+                    <img class="card-img-top" v-bind:src="vozilo.slika_1">
+                    <img class="card-img-top" v-bind:src="vozilo.slika_2">
+                    <img class="card-img-top" v-bind:src="vozilo.slika_3">
+    
+                  </div>
+                </div>
+    
+    
+                <div class="card-content">
+                  <h5 class="card-title"> {{ vozilo.ime }} </h5>
+                  <p class="card-text"> {{ vozilo.opis }} </p>
+    
+                  <ul class="collapsible">
+    
+                    <li v-if="vozilo.klima">
+                      <div class="collapsible-header">
+                        <i class="material-icons">ac_unit</i>
+                        <span class="badge">Klima</span>
+                      </div>
+                    </li>
+    
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">music_note</i>
+                        <span class="badge">{{ vozilo.muzika }}</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">local_gas_station</i>
+                        <span class="badge">{{ vozilo.gorivo }}</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header">
+                        <i class="material-icons">build</i>
+                        <span class="badge">{{ vozilo.mjenjac }}</span>
+                      </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header">
+                          <i class="material-icons">view_carousel</i>
+                          <span class="badge">{{ vozilo.vrata }}</span>
+                        </div>
+                      </li>                
+                  </ul>
+
+
+                  <div class="col-md-12 text-center">
+                      <a class="waves-effect waves-light btn red darken-2">Pošalji upit</a>
+                  </div>
+                  
+                  
+    
+                </div>
+    
+              </div>
+    
+    
+            </div>
+            <!-- Item End -->
+    
+    
+    
+    
+    
+    
+    
+      </div>
+
 
       </div>
-      <!-- /Row -->
+      <!-- /Container -->
 
     </div>
-    <!-- /Container -->
+    <!-- /Portfolio -->
 
-  </footer>
-  <!-- /Footer -->
+    <!-- Service -->
+    <div id="service" class="section md-padding">
 
-  <!-- Back to top -->
-  <div id="back-to-top"></div>
-  <!-- /Back to top -->
+      <!-- Container -->
+      <div class="container">
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="preloader">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+        <!-- Row -->
+        <div class="row">
+
+          <!-- Section header -->
+          <div class="col-md-12">
+            <div class="section-header text-center">
+              <h2 class="title">What we offer</h2>
+            </div>
+          </div>
+          <!-- /Section header -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-diamond"></i>
+              <h3>App Development</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-rocket"></i>
+              <h3>Graphic Design</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-cogs"></i>
+              <h3>Creative Idea</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-diamond"></i>
+              <h3>Marketing</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-pencil"></i>
+              <h3>Awesome Support</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+          <!-- service -->
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-flask"></i>
+              <h3>Brand Design</h3>
+              <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+            </div>
+          </div>
+          <!-- /service -->
+
+        </div>
+        <!-- /Row -->
+
+      </div>
+      <!-- /Container -->
+
     </div>
+    <!-- /Service -->
+
+    <!-- Numbers -->
+    <div id="numbers" class="section sm-padding">
+
+      <!-- Background Image -->
+      <div class="bg-img" style="background-image: url('./img/background2.jpg');">
+        <div class="overlay"></div>
+      </div>
+      <!-- /Background Image -->
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-users"></i>
+              <h3 class="white-text">
+                <span class="counter">451</span>
+              </h3>
+              <span class="white-text">Happy clients</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-trophy"></i>
+              <h3 class="white-text">
+                <span class="counter">12</span>
+              </h3>
+              <span class="white-text">Awards won</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-coffee"></i>
+              <h3 class="white-text">
+                <span class="counter">154</span>K</h3>
+              <span class="white-text">Cups of Coffee</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+          <!-- number -->
+          <div class="col-sm-3 col-xs-6">
+            <div class="number">
+              <i class="fa fa-file"></i>
+              <h3 class="white-text">
+                <span class="counter">45</span>
+              </h3>
+              <span class="white-text">Projects completed</span>
+            </div>
+          </div>
+          <!-- /number -->
+
+        </div>
+        <!-- /Row -->
+
+      </div>
+      <!-- /Container -->
+
+    </div>
+    <!-- /Numbers -->
+
+    <!-- Pricing -->
+    <div id="pricing" class="section md-padding">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+          <!-- Section header -->
+          <div class="col-sm-12">
+            <div class="section-header text-center">
+              <h2 class="title">Pricing Table</h2>
+            </div>
+          </div>
+          <!-- /Section header -->
+
+          <!-- pricing -->
+          <div class="col-sm-4">
+            <div class="pricing">
+              <div class="price-head">
+                <span class="price-title">Basic plan</span>
+                <div class="price">
+                  <h3>$9
+                    <span class="duration">/ month</span>
+                  </h3>
+                </div>
+              </div>
+              <ul class="price-content">
+                <li>
+                  <p>1GB Disk Space</p>
+                </li>
+                <li>
+                  <p>100 Email Account</p>
+                </li>
+                <li>
+                  <p>24/24 Support</p>
+                </li>
+              </ul>
+              <div class="price-btn">
+                <button class="outline-btn">Purchase now</button>
+              </div>
+            </div>
+          </div>
+          <!-- /pricing -->
+
+          <!-- pricing -->
+          <div class="col-sm-4">
+            <div class="pricing">
+              <div class="price-head">
+                <span class="price-title">Silver plan</span>
+                <div class="price">
+                  <h3>$19
+                    <span class="duration">/ month</span>
+                  </h3>
+                </div>
+              </div>
+              <ul class="price-content">
+                <li>
+                  <p>1GB Disk Space</p>
+                </li>
+                <li>
+                  <p>100 Email Account</p>
+                </li>
+                <li>
+                  <p>24/24 Support</p>
+                </li>
+              </ul>
+              <div class="price-btn">
+                <button class="outline-btn">Purchase now</button>
+              </div>
+            </div>
+          </div>
+          <!-- /pricing -->
+
+          <!-- pricing -->
+          <div class="col-sm-4">
+            <div class="pricing">
+              <div class="price-head">
+                <span class="price-title">Gold plan</span>
+                <div class="price">
+                  <h3>$39
+                    <span class="duration">/ month</span>
+                  </h3>
+                </div>
+              </div>
+              <ul class="price-content">
+                <li>
+                  <p>1GB Disk Space</p>
+                </li>
+                <li>
+                  <p>100 Email Account</p>
+                </li>
+                <li>
+                  <p>24/24 Support</p>
+                </li>
+              </ul>
+              <div class="price-btn">
+                <button class="outline-btn">Purchase now</button>
+              </div>
+            </div>
+          </div>
+          <!-- /pricing -->
+
+        </div>
+        <!-- Row -->
+
+      </div>
+      <!-- /Container -->
+
+    </div>
+    <!-- /Pricing -->
+
+    <!-- Contact -->
+    <div id="contact" class="section md-padding">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+          <!-- Section-header -->
+          <div class="col-sm-12">
+            <div class="section-header text-center">
+              <h2 class="title">Get in touch</h2>
+            </div>
+          </div>
+          <!-- /Section-header -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-phone"></i>
+              <h3>Phone</h3>
+              <p>512-421-3940</p>
+            </div>
+          </div>
+          <!-- /contact -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-envelope"></i>
+              <h3>Email</h3>
+              <p>email@support.com</p>
+            </div>
+          </div>
+          <!-- /contact -->
+
+          <!-- contact -->
+          <div class="col-sm-4">
+            <div class="contact">
+              <i class="fa fa-map-marker"></i>
+              <h3>Address</h3>
+              <p>1739 Bubby Drive</p>
+            </div>
+          </div>
+          <!-- /contact -->
+
+          <!-- contact form -->
+          <div class="col-md-12">
+            <form class="contact-form">
+              <input type="text" class="input" placeholder="Name">
+              <input type="email" class="input" placeholder="Email">
+              <input type="text" class="input" placeholder="Subject">
+              <textarea class="input" placeholder="Message"></textarea>
+              <button class="main-btn">Send message</button>
+            </form>
+          </div>
+          <!-- /contact form -->
+
+        </div>
+        <!-- /Row -->
+
+      </div>
+      <!-- /Container -->
+
+    </div>
+    <!-- /Contact -->
+
+
+    <!-- Footer -->
+    <footer id="footer" class="sm-padding bg-dark">
+
+      <!-- Container -->
+      <div class="container">
+
+        <!-- Row -->
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <!-- footer logo -->
+            <div class="footer-logo">
+              <a href="index.html">
+                <img src="img/logo-alt.png" alt="logo">
+              </a>
+            </div>
+            <!-- /footer logo -->
+
+            <!-- footer follow -->
+            <ul class="footer-follow">
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-google-plus"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- /footer follow -->
+
+            <!-- footer copyright -->
+            <div class="footer-copyright">
+              <p>Copyright © 2017. All Rights Reserved. Designed by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              </p>
+            </div>
+            <!-- /footer copyright -->
+
+          </div>
+
+        </div>
+        <!-- /Row -->
+
+      </div>
+      <!-- /Container -->
+
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="preloader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <!-- /Preloader -->
+
   </div>
-  <!-- /Preloader -->
-
-
 
 
 
@@ -986,14 +812,45 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
     crossorigin="anonymous"></script>
 
-
-
+  
   <!--build:js js/main.min.js -->
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.magnific-popup.js"></script>
   <script src="js/parallaxie.js"></script>
+    
   <script src="js/main.js"></script>
   <!-- endbuild -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+
+  <script>
+      var app = new Vue({
+          el: '#app',
+          data: {
+              vozila: [
+                {id: 1, ime: 'Megane', opis: '2015 godiste, 1.5 dizel, full casko, bluetooth, usb, aux', klima: true, muzika: 'mp3', gorivo: '1.5 Dizel', vrata: 5, mjenjac: 'Manuelno', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},
+
+                {id: 2, ime: 'Mercedes E 250', opis: 'Full casko, full oprema', klima: true, muzika: 'mp3', gorivo: 'Dizel', vrata: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/mercedes/c_1.jpg', slika_2: 'img/vozila/mercedes/c_2.jpg', slika_3: 'img/vozila/mercedes/c_3.jpg'}              
+              ]
+          }
+      })
+      var owl = $('.owl-two');
+      owl.owlCarousel({
+          items:1,
+          loop:true,
+          margin:0,
+          autoplay:true,
+          autoplayTimeout:3500,
+          autoplayHoverPause:true,
+          smartSpeed: 1400
+      });
+      $('.play').on('click',function(){
+          owl.trigger('play.owl.autoplay',[1000])
+      })
+      $('.stop').on('click',function(){
+          owl.trigger('stop.owl.autoplay')
+      })
+  </script>
 </body>
 
 </html>
