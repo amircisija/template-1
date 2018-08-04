@@ -301,34 +301,39 @@
     
                   <ul class="collapsible">
     
-                    <li v-if="vozilo.klima">
-                      <div class="collapsible-header">
-                        <i class="material-icons">ac_unit</i>
-                        <span class="badge">Klima</span>
+                    <li>
+                      <div class="collapsible-header" v-if="vozilo.klima">
+                        <i class="material-icons">ac_unit</i>Klima 
+                        <span class="badge">Da</span>
                       </div>
+
+                      <div class="collapsible-header" v-else>
+                        <i class="material-icons">ac_unit</i>Klima 
+                        <span class="badge">Ne</span>
+                      </div>                      
                     </li>
     
                     <li>
                       <div class="collapsible-header">
-                        <i class="material-icons">music_note</i>
+                        <i class="material-icons">music_note</i> Muzika
                         <span class="badge">{{ vozilo.muzika }}</span>
                       </div>
                     </li>
                     <li>
                       <div class="collapsible-header">
-                        <i class="material-icons">local_gas_station</i>
+                        <i class="material-icons">local_gas_station</i> Gorivo
                         <span class="badge">{{ vozilo.gorivo }}</span>
                       </div>
                     </li>
                     <li>
                       <div class="collapsible-header">
-                        <i class="material-icons">build</i>
+                        <i class="material-icons">build</i> Mjenjać
                         <span class="badge">{{ vozilo.mjenjac }}</span>
                       </div>
                     </li>
                     <li>
                         <div class="collapsible-header">
-                          <i class="material-icons">view_carousel</i>
+                          <i class="material-icons">view_carousel</i> Broj vrata
                           <span class="badge">{{ vozilo.vrata }}</span>
                         </div>
                       </li>                
@@ -828,9 +833,25 @@
           el: '#app',
           data: {
               vozila: [
-                {id: 1, ime: 'Megane', opis: '2015 godiste, 1.5 dizel, full casko, bluetooth, usb, aux', klima: true, muzika: 'mp3', gorivo: '1.5 Dizel', vrata: 5, mjenjac: 'Manuelno', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},
+                {id: 1, ime: 'Renault Clio', opis: '1.5 dci,  grandtour', klima: true, muzika: 'cd/mp3', gorivo: '1.5 Dizel', vrata: 5, mjesta: 5, mjenjac: 'Manuelni', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},
 
-                {id: 2, ime: 'Mercedes E 250', opis: 'Full casko, full oprema', klima: true, muzika: 'mp3', gorivo: 'Dizel', vrata: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/mercedes/c_1.jpg', slika_2: 'img/vozila/mercedes/c_2.jpg', slika_3: 'img/vozila/mercedes/c_3.jpg'}              
+                {id: 2, ime: 'Renault Clio karavan', opis: '1.5 dci, karavan', klima: true, muzika: 'cd/mp3', gorivo: '1.5 Dizel', vrata: 5, mjesta: 5, mjenjac: 'Manuelni', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'}, 
+
+                {id: 3, ime: 'Volkwagen Touran', opis: '1.9 tdi, monovolumen, zadnja odvojena svjedista', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Manuelni', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'}, 
+
+                {id: 4, ime: 'Opel Zafira', opis: '1.9 cdti', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 7, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},  
+
+                {id: 5, ime: 'Opel Astra', opis: '1.9 cdti, karavan', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},    
+
+                {id: 6, ime: 'Mercedes E250', opis: 'full oprema, full casko, navigacija', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},
+
+                {id: 7, ime: 'Opel Astra', opis: '1.9 cdti, karavan', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},
+
+                {id: 8, ime: 'Renault Megane', opis: '1.5 dci, tamno-sive boje', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},     
+
+                {id: 9, ime: 'Renault Megane', opis: '1.5 dci, bijele boje', klima: true, muzika: 'cd/mp3', gorivo: 'Dizel', vrata: 5, mjesta: 5, mjenjac: 'Automatik', slika_1: 'img/vozila/megane/x_1.jpg', slika_2: 'img/vozila/megane/x_2.jpg', slika_3: 'img/vozila/megane/x_3.jpg'},                                                                                                     
+
+                             
               ]
           }
       })
